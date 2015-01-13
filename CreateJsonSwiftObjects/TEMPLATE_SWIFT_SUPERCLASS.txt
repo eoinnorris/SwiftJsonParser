@@ -1,0 +1,30 @@
+
+public class JSONObject:JSONDictionaryConstructible{
+
+
+    required public init(jsonDictionary:NSDictionary) {
+
+    }
+
+    internal func convertNSArrayToArrayOfType<T>(inArray:NSArray)->[T]{
+        var array = [T]()
+        for potentialStr in inArray{
+            if let str = potentialStr as? T{
+                array.append(str)
+            }
+        }
+        return array
+    }
+
+    internal func convertNSArrayToArrayOfObjectType<T : JSONDictionaryConstructible>(inArray:NSArray)->[T]{
+        var itemArray:[T] = []
+        for probableDict in inArray{
+            if let dict: NSDictionary = probableDict as? NSDictionary{
+                var thisItem =  T(jsonDictionary: dict)
+                itemArray.append(thisItem)
+            }
+        }
+        return  itemArray
+    }
+
+}

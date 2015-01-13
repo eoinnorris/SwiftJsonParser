@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2941F4F61A5EA3FC00E2E43A /* EoinImportGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2941F4F51A5EA3FC00E2E43A /* EoinImportGenerator.swift */; };
+		2941F4F81A5EA53300E2E43A /* EoinJSONSuper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2941F4F71A5EA53300E2E43A /* EoinJSONSuper.swift */; };
+		2956B1D71A5BFBED000F2BCA /* JSONTEST.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2956B1D61A5BFBED000F2BCA /* JSONTEST.txt */; };
+		29AE8E961A5AB04E0050CF0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AE8E951A5AB04E0050CF0B /* AppDelegate.swift */; };
+		29AE8E981A5AB04E0050CF0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AE8E971A5AB04E0050CF0B /* ViewController.swift */; };
+		29AE8E9A1A5AB04E0050CF0B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29AE8E991A5AB04E0050CF0B /* Images.xcassets */; };
+		29AE8E9D1A5AB04E0050CF0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29AE8E9B1A5AB04E0050CF0B /* Main.storyboard */; };
+		29AE8EA91A5AB04F0050CF0B /* CreateJsonSwiftObjectsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AE8EA81A5AB04F0050CF0B /* CreateJsonSwiftObjectsTests.swift */; };
+		29AE8EB31A5AB0800050CF0B /* EOINJsonParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AE8EB21A5AB0800050CF0B /* EOINJsonParser.swift */; };
+		29DCA0C81A6002B9001C52A0 /* TEMPLATE_SWIFT_SUPERCLASS.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29DCA0C71A6002B9001C52A0 /* TEMPLATE_SWIFT_SUPERCLASS.txt */; };
+		29DCA0CA1A60032A001C52A0 /* TEMPLATE_SWIFT_PROTOCOLS.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29DCA0C91A60032A001C52A0 /* TEMPLATE_SWIFT_PROTOCOLS.txt */; };
+		29DCA0CC1A60035F001C52A0 /* EOINProtocolsGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DCA0CB1A60035F001C52A0 /* EOINProtocolsGenerator.swift */; };
+		29E0952F1A5C4EF900A4DD9F /* EOINCleanUpString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E0952E1A5C4EF900A4DD9F /* EOINCleanUpString.swift */; };
+		29E095311A5C4F3800A4DD9F /* EOINInstanceVariableParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E095301A5C4F3800A4DD9F /* EOINInstanceVariableParser.swift */; };
+		29E095351A5D51B700A4DD9F /* EOINInitMethodCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E095341A5D51B700A4DD9F /* EOINInitMethodCreator.swift */; };
+		29E095371A5D62E700A4DD9F /* EOINParamaterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E095361A5D62E700A4DD9F /* EOINParamaterType.swift */; };
+		29E095391A5D915400A4DD9F /* EOINNewLineGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E095381A5D915400A4DD9F /* EOINNewLineGenerator.swift */; };
+		29E0953B1A5E942700A4DD9F /* EOINGenerateDefaultSuperClassGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E0953A1A5E942700A4DD9F /* EOINGenerateDefaultSuperClassGenerator.swift */; };
+		29E548271A5AFA39008E283F /* EOINJSONParserObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E548261A5AFA39008E283F /* EOINJSONParserObject.swift */; };
+		29EFA3061A655118006129B4 /* EOINClassStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EFA3051A655117006129B4 /* EOINClassStack.swift */; };
+		29EFA3081A65516D006129B4 /* EoinClassPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EFA3071A65516D006129B4 /* EoinClassPreprocessor.swift */; };
+		29F69AE11A5EE29600006C0C /* JSONTEST2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29F69AE01A5EE29600006C0C /* JSONTEST2.txt */; };
+		29F69AE31A5EECF200006C0C /* EOINStringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F69AE21A5EECF200006C0C /* EOINStringExtensions.swift */; };
+		29F69AE41A5FE52F00006C0C /* testJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E095321A5C575500A4DD9F /* testJSON.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29AE8EA31A5AB04F0050CF0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29AE8E881A5AB04E0050CF0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29AE8E8F1A5AB04E0050CF0B;
+			remoteInfo = CreateJsonSwiftObjects;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2941F4F51A5EA3FC00E2E43A /* EoinImportGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EoinImportGenerator.swift; sourceTree = "<group>"; };
+		2941F4F71A5EA53300E2E43A /* EoinJSONSuper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EoinJSONSuper.swift; sourceTree = "<group>"; };
+		2956B1D61A5BFBED000F2BCA /* JSONTEST.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = JSONTEST.txt; sourceTree = "<group>"; };
+		29AE8E901A5AB04E0050CF0B /* CreateJsonSwiftObjects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreateJsonSwiftObjects.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29AE8E941A5AB04E0050CF0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29AE8E951A5AB04E0050CF0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		29AE8E971A5AB04E0050CF0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		29AE8E991A5AB04E0050CF0B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		29AE8E9C1A5AB04E0050CF0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29AE8EA21A5AB04F0050CF0B /* CreateJsonSwiftObjectsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreateJsonSwiftObjectsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29AE8EA71A5AB04F0050CF0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29AE8EA81A5AB04F0050CF0B /* CreateJsonSwiftObjectsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateJsonSwiftObjectsTests.swift; sourceTree = "<group>"; };
+		29AE8EB21A5AB0800050CF0B /* EOINJsonParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EOINJsonParser.swift; sourceTree = "<group>"; };
+		29DCA0C71A6002B9001C52A0 /* TEMPLATE_SWIFT_SUPERCLASS.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TEMPLATE_SWIFT_SUPERCLASS.txt; sourceTree = "<group>"; };
+		29DCA0C91A60032A001C52A0 /* TEMPLATE_SWIFT_PROTOCOLS.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TEMPLATE_SWIFT_PROTOCOLS.txt; path = ../TEMPLATE_SWIFT_PROTOCOLS.txt; sourceTree = "<group>"; };
+		29DCA0CB1A60035F001C52A0 /* EOINProtocolsGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EOINProtocolsGenerator.swift; sourceTree = "<group>"; };
+		29E0952E1A5C4EF900A4DD9F /* EOINCleanUpString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EOINCleanUpString.swift; sourceTree = "<group>"; };
+		29E095301A5C4F3800A4DD9F /* EOINInstanceVariableParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EOINInstanceVariableParser.swift; sourceTree = "<group>"; };
+		29E095321A5C575500A4DD9F /* testJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testJSON.swift; sourceTree = "<group>"; };
+		29E095341A5D51B700A4DD9F /* EOINInitMethodCreator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EOINInitMethodCreator.swift; sourceTree = "<group>"; };
+		29E095361A5D62E700A4DD9F /* EOINParamaterType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EOINParamaterType.swift; sourceTree = "<group>"; };
+		29E095381A5D915400A4DD9F /* EOINNewLineGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EOINNewLineGenerator.swift; sourceTree = "<group>"; };
+		29E0953A1A5E942700A4DD9F /* EOINGenerateDefaultSuperClassGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EOINGenerateDefaultSuperClassGenerator.swift; sourceTree = "<group>"; };
+		29E548261A5AFA39008E283F /* EOINJSONParserObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EOINJSONParserObject.swift; sourceTree = "<group>"; };
+		29EFA3051A655117006129B4 /* EOINClassStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EOINClassStack.swift; sourceTree = "<group>"; };
+		29EFA3071A65516D006129B4 /* EoinClassPreprocessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EoinClassPreprocessor.swift; sourceTree = "<group>"; };
+		29F69AE01A5EE29600006C0C /* JSONTEST2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = JSONTEST2.txt; sourceTree = "<group>"; };
+		29F69AE21A5EECF200006C0C /* EOINStringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EOINStringExtensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29AE8E8D1A5AB04E0050CF0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29AE8E9F1A5AB04F0050CF0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29AE8E871A5AB04E0050CF0B = {
+			isa = PBXGroup;
+			children = (
+				29E095321A5C575500A4DD9F /* testJSON.swift */,
+				29AE8E921A5AB04E0050CF0B /* CreateJsonSwiftObjects */,
+				29AE8EA51A5AB04F0050CF0B /* CreateJsonSwiftObjectsTests */,
+				29AE8E911A5AB04E0050CF0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29AE8E911A5AB04E0050CF0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29AE8E901A5AB04E0050CF0B /* CreateJsonSwiftObjects.app */,
+				29AE8EA21A5AB04F0050CF0B /* CreateJsonSwiftObjectsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29AE8E921A5AB04E0050CF0B /* CreateJsonSwiftObjects */ = {
+			isa = PBXGroup;
+			children = (
+				29AE8EB21A5AB0800050CF0B /* EOINJsonParser.swift */,
+				29E548261A5AFA39008E283F /* EOINJSONParserObject.swift */,
+				29AE8E951A5AB04E0050CF0B /* AppDelegate.swift */,
+				29EFA3051A655117006129B4 /* EOINClassStack.swift */,
+				29EFA3071A65516D006129B4 /* EoinClassPreprocessor.swift */,
+				29AE8E971A5AB04E0050CF0B /* ViewController.swift */,
+				2941F4F71A5EA53300E2E43A /* EoinJSONSuper.swift */,
+				29E0952E1A5C4EF900A4DD9F /* EOINCleanUpString.swift */,
+				29E095301A5C4F3800A4DD9F /* EOINInstanceVariableParser.swift */,
+				29E095341A5D51B700A4DD9F /* EOINInitMethodCreator.swift */,
+				29E095361A5D62E700A4DD9F /* EOINParamaterType.swift */,
+				29E0953A1A5E942700A4DD9F /* EOINGenerateDefaultSuperClassGenerator.swift */,
+				2941F4F51A5EA3FC00E2E43A /* EoinImportGenerator.swift */,
+				29E095381A5D915400A4DD9F /* EOINNewLineGenerator.swift */,
+				29DCA0CB1A60035F001C52A0 /* EOINProtocolsGenerator.swift */,
+				29F69AE21A5EECF200006C0C /* EOINStringExtensions.swift */,
+				29AE8E991A5AB04E0050CF0B /* Images.xcassets */,
+				29AE8E9B1A5AB04E0050CF0B /* Main.storyboard */,
+				29AE8E931A5AB04E0050CF0B /* Supporting Files */,
+			);
+			path = CreateJsonSwiftObjects;
+			sourceTree = "<group>";
+		};
+		29AE8E931A5AB04E0050CF0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29DCA0C91A60032A001C52A0 /* TEMPLATE_SWIFT_PROTOCOLS.txt */,
+				29DCA0C71A6002B9001C52A0 /* TEMPLATE_SWIFT_SUPERCLASS.txt */,
+				29F69AE01A5EE29600006C0C /* JSONTEST2.txt */,
+				2956B1D61A5BFBED000F2BCA /* JSONTEST.txt */,
+				29AE8E941A5AB04E0050CF0B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29AE8EA51A5AB04F0050CF0B /* CreateJsonSwiftObjectsTests */ = {
+			isa = PBXGroup;
+			children = (
+				29AE8EA81A5AB04F0050CF0B /* CreateJsonSwiftObjectsTests.swift */,
+				29AE8EA61A5AB04F0050CF0B /* Supporting Files */,
+			);
+			path = CreateJsonSwiftObjectsTests;
+			sourceTree = "<group>";
+		};
+		29AE8EA61A5AB04F0050CF0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29AE8EA71A5AB04F0050CF0B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29AE8E8F1A5AB04E0050CF0B /* CreateJsonSwiftObjects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29AE8EAC1A5AB04F0050CF0B /* Build configuration list for PBXNativeTarget "CreateJsonSwiftObjects" */;
+			buildPhases = (
+				29AE8E8C1A5AB04E0050CF0B /* Sources */,
+				29AE8E8D1A5AB04E0050CF0B /* Frameworks */,
+				29AE8E8E1A5AB04E0050CF0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CreateJsonSwiftObjects;
+			productName = CreateJsonSwiftObjects;
+			productReference = 29AE8E901A5AB04E0050CF0B /* CreateJsonSwiftObjects.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29AE8EA11A5AB04F0050CF0B /* CreateJsonSwiftObjectsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29AE8EAF1A5AB04F0050CF0B /* Build configuration list for PBXNativeTarget "CreateJsonSwiftObjectsTests" */;
+			buildPhases = (
+				29AE8E9E1A5AB04F0050CF0B /* Sources */,
+				29AE8E9F1A5AB04F0050CF0B /* Frameworks */,
+				29AE8EA01A5AB04F0050CF0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29AE8EA41A5AB04F0050CF0B /* PBXTargetDependency */,
+			);
+			name = CreateJsonSwiftObjectsTests;
+			productName = CreateJsonSwiftObjectsTests;
+			productReference = 29AE8EA21A5AB04F0050CF0B /* CreateJsonSwiftObjectsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29AE8E881A5AB04E0050CF0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Eoin Norris";
+				TargetAttributes = {
+					29AE8E8F1A5AB04E0050CF0B = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					29AE8EA11A5AB04F0050CF0B = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 29AE8E8F1A5AB04E0050CF0B;
+					};
+				};
+			};
+			buildConfigurationList = 29AE8E8B1A5AB04E0050CF0B /* Build configuration list for PBXProject "CreateJsonSwiftObjects" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29AE8E871A5AB04E0050CF0B;
+			productRefGroup = 29AE8E911A5AB04E0050CF0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29AE8E8F1A5AB04E0050CF0B /* CreateJsonSwiftObjects */,
+				29AE8EA11A5AB04F0050CF0B /* CreateJsonSwiftObjectsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29AE8E8E1A5AB04E0050CF0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29AE8E9A1A5AB04E0050CF0B /* Images.xcassets in Resources */,
+				29AE8E9D1A5AB04E0050CF0B /* Main.storyboard in Resources */,
+				29DCA0CA1A60032A001C52A0 /* TEMPLATE_SWIFT_PROTOCOLS.txt in Resources */,
+				29DCA0C81A6002B9001C52A0 /* TEMPLATE_SWIFT_SUPERCLASS.txt in Resources */,
+				2956B1D71A5BFBED000F2BCA /* JSONTEST.txt in Resources */,
+				29F69AE11A5EE29600006C0C /* JSONTEST2.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29AE8EA01A5AB04F0050CF0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29AE8E8C1A5AB04E0050CF0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29E095351A5D51B700A4DD9F /* EOINInitMethodCreator.swift in Sources */,
+				29AE8EB31A5AB0800050CF0B /* EOINJsonParser.swift in Sources */,
+				2941F4F81A5EA53300E2E43A /* EoinJSONSuper.swift in Sources */,
+				29AE8E981A5AB04E0050CF0B /* ViewController.swift in Sources */,
+				29E0952F1A5C4EF900A4DD9F /* EOINCleanUpString.swift in Sources */,
+				29E095391A5D915400A4DD9F /* EOINNewLineGenerator.swift in Sources */,
+				29EFA3081A65516D006129B4 /* EoinClassPreprocessor.swift in Sources */,
+				29E095371A5D62E700A4DD9F /* EOINParamaterType.swift in Sources */,
+				29EFA3061A655118006129B4 /* EOINClassStack.swift in Sources */,
+				29E0953B1A5E942700A4DD9F /* EOINGenerateDefaultSuperClassGenerator.swift in Sources */,
+				29E548271A5AFA39008E283F /* EOINJSONParserObject.swift in Sources */,
+				29F69AE31A5EECF200006C0C /* EOINStringExtensions.swift in Sources */,
+				2941F4F61A5EA3FC00E2E43A /* EoinImportGenerator.swift in Sources */,
+				29E095311A5C4F3800A4DD9F /* EOINInstanceVariableParser.swift in Sources */,
+				29AE8E961A5AB04E0050CF0B /* AppDelegate.swift in Sources */,
+				29F69AE41A5FE52F00006C0C /* testJSON.swift in Sources */,
+				29DCA0CC1A60035F001C52A0 /* EOINProtocolsGenerator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29AE8E9E1A5AB04F0050CF0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29AE8EA91A5AB04F0050CF0B /* CreateJsonSwiftObjectsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29AE8EA41A5AB04F0050CF0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29AE8E8F1A5AB04E0050CF0B /* CreateJsonSwiftObjects */;
+			targetProxy = 29AE8EA31A5AB04F0050CF0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		29AE8E9B1A5AB04E0050CF0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29AE8E9C1A5AB04E0050CF0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29AE8EAA1A5AB04F0050CF0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		29AE8EAB1A5AB04F0050CF0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		29AE8EAD1A5AB04F0050CF0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CreateJsonSwiftObjects/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		29AE8EAE1A5AB04F0050CF0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CreateJsonSwiftObjects/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		29AE8EB01A5AB04F0050CF0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CreateJsonSwiftObjectsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CreateJsonSwiftObjects.app/Contents/MacOS/CreateJsonSwiftObjects";
+			};
+			name = Debug;
+		};
+		29AE8EB11A5AB04F0050CF0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CreateJsonSwiftObjectsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CreateJsonSwiftObjects.app/Contents/MacOS/CreateJsonSwiftObjects";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29AE8E8B1A5AB04E0050CF0B /* Build configuration list for PBXProject "CreateJsonSwiftObjects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29AE8EAA1A5AB04F0050CF0B /* Debug */,
+				29AE8EAB1A5AB04F0050CF0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29AE8EAC1A5AB04F0050CF0B /* Build configuration list for PBXNativeTarget "CreateJsonSwiftObjects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29AE8EAD1A5AB04F0050CF0B /* Debug */,
+				29AE8EAE1A5AB04F0050CF0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29AE8EAF1A5AB04F0050CF0B /* Build configuration list for PBXNativeTarget "CreateJsonSwiftObjectsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29AE8EB01A5AB04F0050CF0B /* Debug */,
+				29AE8EB11A5AB04F0050CF0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29AE8E881A5AB04E0050CF0B /* Project object */;
+}
