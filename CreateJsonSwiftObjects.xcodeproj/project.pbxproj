@@ -114,22 +114,12 @@
 		29AE8E921A5AB04E0050CF0B /* CreateJsonSwiftObjects */ = {
 			isa = PBXGroup;
 			children = (
-				29AE8EB21A5AB0800050CF0B /* EOINJsonParser.swift */,
-				29E548261A5AFA39008E283F /* EOINJSONParserObject.swift */,
-				29AE8E951A5AB04E0050CF0B /* AppDelegate.swift */,
-				29EFA3051A655117006129B4 /* EOINClassStack.swift */,
-				29EFA3071A65516D006129B4 /* EoinClassPreprocessor.swift */,
 				29AE8E971A5AB04E0050CF0B /* ViewController.swift */,
-				2941F4F71A5EA53300E2E43A /* EoinJSONSuper.swift */,
-				29E0952E1A5C4EF900A4DD9F /* EOINCleanUpString.swift */,
-				29E095301A5C4F3800A4DD9F /* EOINInstanceVariableParser.swift */,
-				29E095341A5D51B700A4DD9F /* EOINInitMethodCreator.swift */,
-				29E095361A5D62E700A4DD9F /* EOINParamaterType.swift */,
-				29E0953A1A5E942700A4DD9F /* EOINGenerateDefaultSuperClassGenerator.swift */,
-				2941F4F51A5EA3FC00E2E43A /* EoinImportGenerator.swift */,
-				29E095381A5D915400A4DD9F /* EOINNewLineGenerator.swift */,
-				29DCA0CB1A60035F001C52A0 /* EOINProtocolsGenerator.swift */,
-				29F69AE21A5EECF200006C0C /* EOINStringExtensions.swift */,
+				29AE8E951A5AB04E0050CF0B /* AppDelegate.swift */,
+				29CA204F1A657B1E0083AD00 /* Parsers */,
+				29CA20501A657B270083AD00 /* Models */,
+				29CA20511A657B380083AD00 /* Generators */,
+				29CA20521A657B4C0083AD00 /* Utility */,
 				29AE8E991A5AB04E0050CF0B /* Images.xcassets */,
 				29AE8E9B1A5AB04E0050CF0B /* Main.storyboard */,
 				29AE8E931A5AB04E0050CF0B /* Supporting Files */,
@@ -164,6 +154,48 @@
 				29AE8EA71A5AB04F0050CF0B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29CA204F1A657B1E0083AD00 /* Parsers */ = {
+			isa = PBXGroup;
+			children = (
+				29E095301A5C4F3800A4DD9F /* EOINInstanceVariableParser.swift */,
+				29EFA3071A65516D006129B4 /* EoinClassPreprocessor.swift */,
+				29AE8EB21A5AB0800050CF0B /* EOINJsonParser.swift */,
+			);
+			name = Parsers;
+			sourceTree = "<group>";
+		};
+		29CA20501A657B270083AD00 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				29E095361A5D62E700A4DD9F /* EOINParamaterType.swift */,
+				29E548261A5AFA39008E283F /* EOINJSONParserObject.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		29CA20511A657B380083AD00 /* Generators */ = {
+			isa = PBXGroup;
+			children = (
+				29DCA0CB1A60035F001C52A0 /* EOINProtocolsGenerator.swift */,
+				29E095381A5D915400A4DD9F /* EOINNewLineGenerator.swift */,
+				29E095341A5D51B700A4DD9F /* EOINInitMethodCreator.swift */,
+				29E0953A1A5E942700A4DD9F /* EOINGenerateDefaultSuperClassGenerator.swift */,
+				2941F4F51A5EA3FC00E2E43A /* EoinImportGenerator.swift */,
+				2941F4F71A5EA53300E2E43A /* EoinJSONSuper.swift */,
+			);
+			name = Generators;
+			sourceTree = "<group>";
+		};
+		29CA20521A657B4C0083AD00 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				29EFA3051A655117006129B4 /* EOINClassStack.swift */,
+				29F69AE21A5EECF200006C0C /* EOINStringExtensions.swift */,
+				29E0952E1A5C4EF900A4DD9F /* EOINCleanUpString.swift */,
+			);
+			name = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
