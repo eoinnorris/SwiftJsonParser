@@ -8,7 +8,7 @@
 
 import Cocoa
 
-let kDefaultJSON = "JSONTEST"
+let kDefaultJSON = "JSONTEST2"
 let kDefaultJSONSuperClass = "JSONObject"
 
 public class EOINJsonParser: NSObject {
